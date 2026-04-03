@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#everything else
+AGENTS.md 
+CLAUDE.md 
+eslint.config.mjs
+next.config.ts
+package-lock.json
+package.json
