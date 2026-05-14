@@ -15,7 +15,7 @@ export default function GlassNavbar() {
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#achievements">Achievements</a>
-        <a href="#certifications">Certifications</a>
+        {/*<a href="#certifications">Certifications</a>*/}
         <a href="#contact">Contact</a>
 
       </GlassSurface>

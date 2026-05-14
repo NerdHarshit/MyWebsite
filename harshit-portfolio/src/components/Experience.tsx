@@ -80,9 +80,9 @@ export default function Experience() {
 
   return (
 
-    <section id="experience" className="min-h-screen pt-32 pb-24 items-center flex flex-col gap-8 scroll-mt-24 fade-in px-4">
-<hr style={{ border: "2px solid white", width: "80%" }} />
-      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16">
+    <section id="experience" className="min-h-screen pt-32 pb-24 items-center flex flex-col gap-8 scroll-mt-24 fade-in">
+      <hr style={{ border: "2px solid white", width: "80%" }} />
+      <h2 className="text-5xl font-bold text-center mb-16">
         Experience
       </h2>
 
@@ -107,7 +107,7 @@ export default function Experience() {
       </div>
 
       {viewMode === "cards" && (
-        <div className="max-w-6xl mx-auto px-2 md:px-6 flex flex-col lg:flex-row gap-8 lg:gap-16">
+        <div className="max-w-6xl mx-auto px-6 flex gap-16">
 
           {/* LEFT SIDE — CARDS */}
 
@@ -143,7 +143,7 @@ export default function Experience() {
 
       {viewMode === "text" && (
 
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 px-2 md:px-6 max-w-4xl mx-auto">
+        <div className="flex gap-16 px-6 max-w-4xl mx-auto">
 
           {/* LEFT SIDE TEXT */}
 

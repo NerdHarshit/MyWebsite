@@ -19,7 +19,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Achievements />
-       <Certifications /> {/**/}
+      {/*<Certifications />*/}
       <Contact />
 
     </main>
