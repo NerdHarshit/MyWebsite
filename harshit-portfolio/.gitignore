@@ -1,25 +1,6 @@
-# Ignore build artifacts and dependencies
-node_modules/
-.next/
-out/
+node_modules
+.next
+out
+.vercel
 
-# Keep source files
-!src/
-!src/**
-!public/
-!public/**
-
-# Keep project configs
-!package.json
-!package-lock.json
-!next.config.js
-!next.config.ts
-!tsconfig.json
-!eslint.config.js
-!postcss.config.js
-!tailwind.config.js
-!tailwind.config.ts
-
-# Keep docs
-!README.md
-!.gitignore
+.env*
