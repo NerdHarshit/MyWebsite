@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+/*
+  
+body{
+  background: #2255a6;
+  color: white;
+}
+  body {
+  background: radial-gradient(
+      circle at top,
+      #1148a0,
+      #041a3a
+  );
+
+  color: white;
+}
+*/
+body{
+  background: #1a4790;
+  color: white;
+  overflow-x: hidden;
+
+  background-image: radial-gradient(
+  rgba(130, 147, 244, 0.559) 1px,
+  transparent 1px
+);
+background-size: 30px 30px;
+}
+.shiny-text {
+  background: linear-gradient(
+    120deg,
+    #ffffff 20%,
+    #686c70 40%,
+    #ffffff 60%
+  );
+  background-size: 200% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 4s linear infinite reverse;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/*
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.4;
+}
+
+.blob1 {
+  width: 500px;
+  height: 500px;
+  background: #3180ff;
+  top: 50%;
+  left: 50%;
+  animation: float 5s infinite ease-in-out;
+}
+
+.blob2 {
+  width: 600px;
+  height: 600px;
+  background: #6c6fe9;
+  top:10%;
+  left:30%;
+  animation: float 5s infinite ease-in-out;
+}
+
+.blob3 {
+  width: 400px;
+  height: 400px;
+  background: #a4beff;
+  top: 75%;
+  left: 80%;
+  animation: float 5s infinite ease-in-out;
+}
+
+.blob4 {
+  width: 400px;
+  height: 400px;
+  background: #33266f;
+  top: 75%;
+  left: 50%;
+  animation: float 5s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-40px); }
+  100% { transform: translateY(0px); }
+}
+*/
